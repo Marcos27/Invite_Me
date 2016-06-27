@@ -1,0 +1,35 @@
+
+body{
+  text-align: center;
+}
+.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    width: 35%;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 48px;
+}
+
+.con-icon-holder{
+    border: 2px solid black;
+    width: 600px;
+    height: 800px;
+    text-align: center;
+}
+
+.heart-holder {
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: 250px;
+    text-align: center;
+    padding: 21px;
+    font-size: 35px;
+    color: white;
+    background-color: grey;
+}
