@@ -1,14 +1,15 @@
  console.log("Hello World")
 
- // Initialize collapse button
-  $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
-    // Show sideNav
-  $('.button-collapse').sideNav('show');
-  // Hide sideNav
-  $('.button-collapse').sideNav('hide');
+  $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
 
- // Materialize.toast(message, displayLength, className, completeCallback);
-  Materialize.toast('I am a toast!', 4000) // 4000 is the duration of the toast
+// Pause slider
+$('.slider').slider('pause');
+// Start slider
+$('.slider').slider('start');
+// Next slide
+$('.slider').slider('next');
+// Previous slide
+$('.slider').slider('prev');
 
